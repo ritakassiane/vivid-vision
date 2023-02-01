@@ -1,9 +1,35 @@
 @font-face { font-family: Ts; src: url('fonts/TS\ Block\ Bold.ttf'); } 
 @font-face { font-family: Heading; src: url('fonts/heading/Heading-Pro-Bold-Italic-trial.ttf'); } 
 
+/* Configurações Gerais */
 *{
     padding: 0;
     margin:0;
     box-sizing: border-box;
-    font-family: 'TS', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --blue-primary: #0070c0;
+    --orange: #EE7124;
+}
+
+
+
+
+/* Introdução */
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    color: var(--blue-primary);
+    padding: 60px;
+}
+
+.bottom-line{
+    width: 100%;
+    height: 52px;
+    background-color: var(--orange);
 }
