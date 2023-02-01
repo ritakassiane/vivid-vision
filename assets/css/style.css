@@ -1,0 +1,9 @@
+@font-face { font-family: Ts; src: url('fonts/TS\ Block\ Bold.ttf'); } 
+@font-face { font-family: Heading; src: url('fonts/heading/Heading-Pro-Bold-Italic-trial.ttf'); } 
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'TS', sans-serif;
+}
