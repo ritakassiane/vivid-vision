@@ -14,9 +14,6 @@
     --orange: #EE7124;
 }
 
-
-
-
 /* Introdução */
 .intro{
     display: flex;
@@ -26,7 +23,6 @@
 
 .content{
     color: var(--blue-primary);
-    padding: 60px;
 }
 
 .bottom-line{
