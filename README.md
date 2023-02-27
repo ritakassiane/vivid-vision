@@ -20,3 +20,14 @@ Essa opção é completamente acessível a editores que não possuem conheciment
 
 
 
+## <div id="convert">⚙ Configurando e Rodando o Convert</div>
+
+O convert.py converte cada página de um arquivo PDF em imagens PNG de alta resolução (4k), utilizando Python 3.10.9 e as as bibliotecas PyMuPDF e Pillow. O usuário pode especificar o nome da pasta onde deseja salvar as imagens e o nome do arquivo PDF a ser convertido. As imagens PNG são salvas na pasta especificada com o nome "X.png", onde "X" é o número da página correspondente. 
+
+As imagens geradas são adicionadas automaticamente à pagina, sem necessidade de edição do código HTML e CSS previamente desenvolvido. 
+
+1. Faça o <a href="https://www.python.org/downloads/release/python-3109/">download</a> do python
+2. Instale as dependencias do projeto rodando o comando "pip install -r requirements.txt" na raiz deste repositório
+3. Na linha 38 do arquivo convert.py, altere o nome do arquivo pdf em questão para o nome do pdf que salvou ao exportar anteriormente
+4. Rode o arquivo convert.py
+
