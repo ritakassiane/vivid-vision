@@ -35,4 +35,4 @@ def save_pdf_as_png(folder_name, pdf_filename, resolution=(3840, 2160), dpi=96):
             img.save(png_filepath, dpi=(dpi, dpi))
 
 
-save_pdf_as_png('../assets/images', 'vivid-vision.pdf')
+save_pdf_as_png('../assets/images', 'vivid-vision-en.pdf')
