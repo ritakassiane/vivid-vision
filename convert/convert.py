@@ -18,7 +18,7 @@ with fitz.open('vivid-vision.pdf') as doc:
         img = img.resize(resolution)
         
         # Define o nome e o formato do arquivo PNG
-        png_filename = f'pagina_{i}.png'
+        png_filename = f'{i}.png'
         
         # Salva a imagem PNG com a resolução definida
         img.save(png_filename, dpi=(dpi, dpi))
