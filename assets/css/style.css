@@ -9,6 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+section{
+    background-size: 100% auto;
+    padding: 20px;
+}
 :root{
     --blue-primary: #0070c0;
     --orange: #EE7124;
